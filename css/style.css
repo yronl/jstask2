@@ -1,0 +1,55 @@
+html,body{height: 100%}
+html {font-family: '微软雅黑', Helvetica, STHeiTi, Arial, sans-serif; -webkit-text-size-adjust: 100%;font-size: 64px;}
+*{-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0;padding: 0;}
+body{-webkit-overflow-scrolling: touch;font-size: 0.38rem;}
+em{font-style: normal}
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {display: block}
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline}
+audio:not([controls]) { display: none; height: 0}
+svg:not(:root) {overflow: hidden}
+a{background: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent;color: #333333}
+a:active{background: transparent}
+img{border: 0; vertical-align: middle}
+body,button, input,select, textarea,h1, h2, h3, h4, h5, p, form, blockquote,ul, ol, li, dl, dd {margin: 0}
+button {overflow: visible}
+button, select {text-transform: none}
+input[type="search"] {-webkit-appearance: textfield;-webkit-box-sizing: border-box; box-sizing: border-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration,input[type=text] {-webkit-appearance: none}
+textarea {overflow: auto; resize: vertical}
+table {border-collapse: collapse; border-spacing: 0}
+ul, ol, li, dl, dd,td, th{padding: 0}
+ul, ol {list-style: none}
+h1, h2, h3{font-weight: normal}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #ccc;font-family: '微软雅黑'}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none;border-radius:0;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.box{
+    width: 5rem;
+    height: 5rem;
+    border:1px solid #dcdcdc;
+    position: relative;
+    top:50%;
+    margin-top: -2.5rem;
+    left: 50%;
+    margin-left: -2.5rem;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 0.46rem;
+    color: #333;
+}
+button{
+    width: 5rem;
+    height:1rem;
+    background-color: #fbb435;
+    color: #fff;
+    font-size: 0.46rem;
+    position: absolute;
+    top:70%;
+    border:none;
+    left: 50%;
+    margin-left: -2.5rem;
+}

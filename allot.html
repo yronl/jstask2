@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="js/task2.js"></script>
+</head>
+<body style="background-color: #f0f0f0;max-width: 770px;margin: 0 auto">
+    <header class="header-top">
+        <img src="images/return.png" alt="" class="return" onclick="window.location.href='task2.html'">
+    </header>
+    <div class="margin30 game-allot bb">
+        <p class="game-p1">玩家配比</p>
+    </div>
+    <div class="game-con margin30 clearfix">
+        <div class="con-left">
+            <p><img src="images/evil.png" alt="" class="evil">杀手 <span id="shashou"></span>人</p>
+        </div>
+        <div class="con-right">
+            <p><img src="images/peo.png" alt="" class="evil">平民 <span id="people"></span>人</p>
+        </div>
+    </div>
+    <div class="black margin30"></div>
+    <div class="game-num margin30">
+        <h1>
+            请输入玩家数量
+            <input type="text" class="num" id="num" value="" onchange="pan()">
+            <span>玩家数量为4-18</span>
+        </h1>
+    </div>
+    <div class="margin30">
+        <a href="identity.html"><button class="go-action">去发牌</button></a>
+    </div>
+</body>
+<script>
+//    function shuffle(arr){
+//        var len = arr.length;
+//        for(var i = 0; i < len - 1; i++){
+//            var idx = Math.floor(Math.random() * (len - i));
+//            var temp = arr[idx];
+//            arr[idx] = arr[len - i - 1];
+//            arr[len - i -1] = temp;
+//        }
+//        return arr;
+//    }
+//    console.log(arr);
+</script>
+</html>
